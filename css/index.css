@@ -179,6 +179,7 @@ a:hover {
     margin: 0 auto;
     width: 800px;
     padding-top: 1rem;
+    padding-bottom: 1rem;
 }
 
 .one {
@@ -305,4 +306,25 @@ hr {
     background-color: #000;
     cursor: pointer;
     transition: .25s ease;
+}
+
+/** Media Queries **/
+
+@media (max-width: 790px) {
+    header {
+        width: 500px;
+        flex-direction: column;
+    }
+    .main-logo {
+        margin: 0 auto;
+    }
+    .nav-item {
+        margin: 0 1rem 0 0;
+    }
+    .container {
+        width: auto;
+    }
+    #form-container {
+        width: auto;
+    }
 }
