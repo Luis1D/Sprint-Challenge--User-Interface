@@ -144,3 +144,40 @@ footer nav a {
     color: white;
     text-decoration: none;
 }
+
+/* MY CSS */
+
+header {
+    display: flex;
+    padding: 1rem 0 1rem 0;
+    width: 800px;
+    margin: 0 auto;
+}
+.main-logo {
+    width: 9rem;
+    height: 2.5rem;
+}
+.header-nav {
+    width: 100%;
+    text-align: center;
+    padding-top: 1.7rem;
+}
+.nav-item {
+    margin-right: 5.5rem;
+}
+.nav-item, .nav-item-last {
+    text-decoration: none;
+    font-size: .9rem;
+    color: #000;
+}
+a:hover {
+    color: grey;
+    border-bottom: 5px solid #000;
+    padding-bottom: 2px;
+    transition: .25s ease;
+}
+.img-container {
+    margin: 0 auto;
+    width: 800px;
+    padding: 1rem 0 1rem 0;
+}
