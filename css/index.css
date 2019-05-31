@@ -104,7 +104,6 @@ p {
 .middle-content .boxes .box {
     width: 12.5%;
     height: 100px;
-    background: black;
     margin: 20px 2.5%;
     color: white;
     display: flex;
@@ -143,4 +142,189 @@ footer nav {
 footer nav a {
     color: white;
     text-decoration: none;
+}
+
+/* INDEX.HTML CSS */
+
+header {
+    display: flex;
+    padding: 1rem 0 1rem 0;
+    width: 800px;
+    margin: 0 auto;
+}
+.main-logo {
+    width: 9rem;
+    height: 2.5rem;
+}
+.header-nav {
+    width: 100%;
+    text-align: center;
+    padding-top: 1.7rem;
+}
+.nav-item {
+    margin-right: 5.5rem;
+}
+.nav-item, .nav-item-last {
+    text-decoration: none;
+    font-size: .9rem;
+    color: #000;
+}
+a:hover {
+    color: #a0001e;
+    border-bottom: 5px solid #000;
+    padding-bottom: 2px;
+    transition: .25s ease;
+}
+.img-container {
+    margin: 0 auto;
+    width: 800px;
+    padding-top: 1rem;
+    padding-bottom: 1rem;
+}
+
+.one {
+    background-color: teal;
+}
+.two {
+    background-color: gold;
+}
+.three {
+    background-color: cadetblue;
+}
+.four {
+    background-color: coral;
+}
+.five {
+    background-color: crimson;
+}
+.six {
+    background-color: forestgreen;
+}
+.seven {
+    background-color: darkorchid;
+}
+.eight {
+    background-color: hotpink;
+}
+.nine {
+    background-color: indigo;
+}
+.ten {
+    background-color: dodgerblue;
+}
+
+/* ABOUT.HTML CSS */
+
+.intro-container {
+    border-bottom: 1px dotted grey;
+    padding: 1rem;
+    margin-bottom: 2rem;
+}
+#main-flex {
+    display: flex;
+    justify-content: space-evenly;
+    flex-wrap: wrap;
+}
+.sub-flex {
+    margin: 0 auto;
+    margin-bottom: 3rem;
+    width: 23rem;
+    border-bottom: 1px dotted grey;
+    padding-bottom: 1rem;
+}
+.sub-flex button {
+    width: 5rem;
+    margin-top: 1rem;
+    height: 1.75rem;
+    border: 1px solid #000;
+    border-radius: .30rem;
+}
+.sub-flex h3 {
+    margin-top: 1rem;
+}
+.sub-flex button:hover {
+    cursor: pointer;
+    background-color: #a0001e;
+    color: #fff;
+    border: none;
+    transition: .25s ease;
+}
+#work-together {
+    padding: 0 1rem 0 1rem;
+    margin-bottom: 2rem;
+}
+
+/** CONTACT PAGE **/
+
+hr {
+    width: 800px;
+}
+.contact-header {
+    text-align: center;
+    margin-top: 2rem;
+    font-size: 2rem;
+}
+#form-container {
+    display: flex;
+    flex-direction: column;
+    width: 800px;
+    margin: 0 auto;
+    padding: 1rem;
+}
+.form-input {
+    font-size: 1rem;
+    margin: 0 auto;
+    width: 25rem;
+    height: 3rem;
+    margin-bottom: 2rem;
+    padding-left: 1rem;
+    border: 1px solid rgb(167, 167, 167);
+    outline: none;
+}
+.final-stage {
+    text-align: center;
+}
+.terms-txt {
+    font-size: .8rem;
+    color: grey;
+}
+.terms {
+    color: #a0001e;
+}
+.submit-btn {
+    width: 20rem;
+    height: 3rem;
+    border-radius: 1.7rem;
+    margin-top: 2rem;
+    background-color: #a0001e;
+    color: #fff;
+    border: none;
+    font-size: 1.1rem;
+    letter-spacing: 1.5px;
+}
+.submit-btn:hover {
+    background-color: #000;
+    cursor: pointer;
+    transition: .25s ease;
+}
+
+/** Media Queries **/
+
+@media (max-width: 790px) {
+    header {
+        width: 500px;
+        flex-direction: column;
+    }
+    .main-logo {
+        margin: 0 auto;
+    }
+    .nav-item {
+        margin: 0 1rem 0 0;
+    }
+    .container {
+        width: auto;
+    }
+    #form-container {
+        width: auto;
+    }
 }
