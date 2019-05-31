@@ -145,7 +145,7 @@ footer nav a {
     text-decoration: none;
 }
 
-/* MY CSS */
+/* INDEX.HTML CSS */
 
 header {
     display: flex;
@@ -179,5 +179,40 @@ a:hover {
 .img-container {
     margin: 0 auto;
     width: 800px;
-    padding: 1rem 0 1rem 0;
+    padding-top: 1rem;
+}
+
+/* ABOUT.HTML CSS */
+
+.intro-container {
+    border-bottom: 1px dotted grey;
+    padding: 1rem;
+    margin-bottom: 2rem;
+}
+#main-flex {
+    display: flex;
+    justify-content: space-evenly;
+    flex-wrap: wrap;
+}
+.sub-flex {
+    margin: 0 auto;
+    margin-bottom: 3rem;
+    width: 23rem;
+    border-bottom: 1px dotted grey;
+    padding-bottom: 1rem;
+}
+.sub-flex button {
+    width: 5rem;
+    margin-top: 1rem;
+    height: 1.75rem;
+    border: 1px solid #000;
+    border-radius: .30rem;
+}
+.sub-flex h3 {
+    margin-top: 1rem;
+}
+
+#work-together {
+    padding: 0 1rem 0 1rem;
+    margin-bottom: 2rem;
 }
